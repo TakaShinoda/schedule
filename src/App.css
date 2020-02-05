@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.title {
+  color: #7ebc59;
+}
+
+.min-width {
+  font-size: 30px;
+}
+
+.max-width h1 {
+  font-size: 135px;
+}
+
 li {
   display: inline;
   margin-right: 1em;
@@ -9,7 +21,7 @@ li {
 
 .navbar {
   list-style: none;
-  background-color: #f9eed3;
+  background-color: #E3E3E3;
   padding: 15px 10px;
   margin: 0;
 }
