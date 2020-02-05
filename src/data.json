@@ -3,7 +3,7 @@
       {
         "id": "PLANNED",
         "title": "Sun",
-        "label": "20/70",
+        "label": "天気",
         "style": {
           "width": 260
         },
@@ -37,7 +37,7 @@
       {
         "id": "WIP",
         "title": "Mon",
-        "label": "10/20",
+        "label": "天気",
         "style": {
           "width": 260
         },
@@ -53,7 +53,7 @@
       {
         "id": "BLOCKED",
         "title": "Tue",
-        "label": "0/0",
+        "label": "天気",
         "style": {
           "width": 260
         },
@@ -65,7 +65,7 @@
         "style": {
           "width": 260
         },
-        "label": "2/5",
+        "label": "天気",
         "cards": [
           {
             "id": "Completed1",
@@ -87,7 +87,7 @@
         "style": {
           "width": 260
         },
-        "label": "1/1",
+        "label": "天気",
         "cards": [
           {
             "id": "Repeat1",
@@ -103,7 +103,7 @@
         "style": {
           "width": 260
         },
-        "label": "1/1",
+        "label": "天気",
         "cards": [
           {
             "id": "Archived1",
@@ -119,7 +119,7 @@
         "style": {
           "width": 260
         },
-        "label": "1/1",
+        "label": "天気",
         "cards": [
           {
             "id": "Archived2",
