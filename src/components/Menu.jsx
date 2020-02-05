@@ -8,10 +8,14 @@ const Menu = () => {
         <div className="navbar-header">
         <Router>
                 <ul className="navbar">
-                    <li><Link to='/'>ホーム</Link></li>
-                    <li><Link to='./trello'>管理</Link></li>
+                    <div className="navbar-left">
+                        <li><Link to='/'>ホーム</Link></li>
+                        <li><Link to='./trello' onClick={()=>alert('hoge')}>管理</Link></li>
+                    </div>
+                    <div className="navbar-right">
+                        <li>ログアウト</li>
+                    </div>
                 </ul>
-                
             <Switch>
                 <Route path='/' exact component={Home}/>
                 <Route path='/trello' exact component={Trello}/>
