@@ -7,7 +7,7 @@ const Trello = () => {
         <div>
             <div>
                 <h1>スケジュール管理</h1>
-                <Board data={data} draggable />
+                <Board data={data} cardDraggable />
             </div>
         </div>
     );
