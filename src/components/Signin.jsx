@@ -1,33 +1,34 @@
 
-import React, {Component} from 'react';
-import firebase from '../firebase';
+import React, { Component } from 'react';
+import firebase from 'firebase/app';
+
 
 class Signin extends Component {
     constructor(props){
         super(props);
-        this.state =({
-
-        });
         this.signInWithGoogle = this.signInWithGoogle.bind(this);
     }
 
-    signInWithGoogle() {
+    signInWithGoogle(e) {
+        alert("hoge")
         const provider = new firebase.auth.GoogleAuthProvider()
         firebase
         .auth()
         .signInWithPopup(provider)
-        .then(user => {
-            alert("success : " + user.user.displayName + "さんでログインしました");
-        })
-        .catch(error => {
-            alert(error.message);
-        });
+        .then(result => {
+            console.log(result);
+          });
     }
 
     render() {
         return (
             <div>
-                <h1>ログイン画面</h1>
+                <div className="login">
+                    <h1>ログイン / 新規登録</h1>
+                </div>
+                <div className="signin_button">
+                    <img src="../btn_google_signin.png" onClick={()=>this.signInWithGoogle()} alt="google signin"/>
+                </div>
             </div>
         );
     }
