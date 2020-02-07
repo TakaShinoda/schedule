@@ -18,7 +18,6 @@ const Home = () => {
                         <h1>Schedule</h1>
                     </div>
                 </MediaQuery>
-                
             </div>
         </div>
     );
