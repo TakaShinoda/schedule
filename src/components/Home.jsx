@@ -19,6 +19,7 @@ const Home = () => {
                     </div>
                 </MediaQuery>
             </div>
+            <p>hoge</p>
         </div>
     );
 }
